@@ -1,8 +1,8 @@
-package com.rbittencourt.pa.stock.application.logistics;
+package com.rbittencourt.pa.stock.application.stock;
 
 import com.rbittencourt.pa.stock.infrastructure.ecommerceorder.EcommerceOrder;
-import com.rbittencourt.pa.stock.infrastructure.logistics.StockRecord;
-import com.rbittencourt.pa.stock.infrastructure.logistics.StockRepository;
+import com.rbittencourt.pa.stock.infrastructure.stock.StockRecord;
+import com.rbittencourt.pa.stock.infrastructure.stock.StockRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
