@@ -27,12 +27,12 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic separatingStockStarted() {
-        return new NewTopic("separating_stock_started", 1, (short) 1);
+        return new NewTopic("separating_stock_started", 2, (short) 1);
     }
 
     @Bean
     public NewTopic stockSeparated() {
-        return new NewTopic("stock_separated", 1, (short) 1);
+        return new NewTopic("stock_separated", 2, (short) 1);
     }
 
 }
